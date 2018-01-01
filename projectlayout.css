@@ -1,0 +1,74 @@
+html, body {
+    background-color: #F9C5C5
+    !important;
+}
+
+p {
+    height: .1em; /* Skip Half a Line */
+}
+
+
+/* Navigation */
+.navbar {
+    position: relative;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    margin-top: 10px
+}
+
+.borderbottom {
+    position: relative;
+    border-color: white;
+    border-width: 1px;
+    border-bottom-style: solid;
+    list-style-type: none;
+}
+
+.logo {
+    position: absolute;
+    left: 40%;
+    max-width:450px;
+    min-width: 450px;
+    min-height:450px;
+    max-height: 450px;
+}
+
+.navbarnavbar {
+    float:center;
+    list-style-type: none; /* Remove Bullets */
+
+}
+
+.navbarnavbar a {
+    position: relative;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: inline
+}
+
+/* Change on hover */
+.navbarnavbar a:hover {
+    color: #F48886; /* Dark Pink */
+}
+/* Navigation */
+
+
+/* Content */
+
+.text {
+    color: #F9C5C5;
+    margin: 10px;
+    padding: 0;
+    color: #F48886;
+    font-weight: bold; 
+    font-size: 12px; 
+    margin: 5%;
+    text-align: left;
+}
+
+/* Content */
+
